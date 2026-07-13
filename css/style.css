@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +14,6 @@ body {
   line-height: 1.5;
   color: #334155;
 }
-
 
 .fs-11 {
   font-size: 11px;
@@ -64,7 +62,6 @@ body {
   line-height: 1.2;
 }
 
-
 .custom-navbar {
   border-bottom: 1px solid #f1f5f9;
 }
@@ -101,7 +98,6 @@ body {
   height: 42px;
   border: 1px solid #e2e8f0;
 }
-
 
 .border-light-subtle {
   border: 1px solid #f1f5f9 !important;
@@ -189,7 +185,6 @@ body {
   background-color: #ef4444;
 }
 
-
 .custom-modal-width {
   max-width: 480px;
 }
@@ -267,7 +262,6 @@ body {
   background-color: #4c26df;
 }
 
-
 .modalBackdrop {
   background: rgba(47, 47, 85, 0.404) !important;
   backdrop-filter: blur(8px);
@@ -278,11 +272,14 @@ body {
   --bs-form-select-bg-img: none !important;
 }
 
-
 .contact-card {
   box-shadow:
     0 1px 3px rgba(0, 0, 0, 0.02),
     0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: 0.2s ease-out;
+}
+.contact-card:hover {
+  box-shadow:0 5px 10px rgba(0, 0, 0, 0.279);
 }
 
 .contact-avatar-wrap {
@@ -370,7 +367,9 @@ body {
   height: 34px;
   border: none;
   border-radius: 9px;
-  transition: transform 0.15s ease, filter 0.15s ease;
+  transition:
+    transform 0.15s ease,
+    filter 0.15s ease;
 }
 
 .card-action-btn:hover {
@@ -378,7 +377,7 @@ body {
   transform: scale(1.1);
 }
 
-.card-action-btn:hover .action-star{
+.card-action-btn:hover .action-star {
   color: yellow !important;
 }
 
@@ -415,7 +414,6 @@ body {
   color: #475569;
 }
 
-
 .side-contact-item {
   background-color: #f8fafc;
   border-radius: 10px;
@@ -447,8 +445,6 @@ body {
   font-size: 11px;
   color: #64748b;
 }
-
-
 
 .side-call-fav {
   background-color: #16a34a;
@@ -489,7 +485,10 @@ body {
   border-radius: 10px;
   border: none;
   flex-shrink: 0;
-  transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.15s ease;
 }
 
 .side-call-btn:hover {
@@ -497,25 +496,24 @@ body {
 }
 
 .side-call-fav {
-  background-color: #d0fae5; 
-  color: #16a34a;            
+  background-color: #d0fae5;
+  color: #16a34a;
 }
 
 .side-call-fav:hover {
-  background-color: #16a34a;  
-  color: #ffffff;             
+  background-color: #16a34a;
+  color: #ffffff;
 }
 
 .side-call-emg {
   background-color: #ffe4e6;
-  color: #ef4444;            
+  color: #ef4444;
 }
 
 .side-call-emg:hover {
-  background-color: #ef4444; 
-  color: #ffffff;             
+  background-color: #ef4444;
+  color: #ffffff;
 }
-
 
 .error-text {
   color: #dc2626;
@@ -556,7 +554,9 @@ body {
   white-space: nowrap;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.2s ease, visibility 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    visibility 0.2s ease;
   pointer-events: none;
   z-index: 100;
 }
@@ -577,7 +577,9 @@ body {
   border-color: transparent transparent #1e293b transparent;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.2s ease, visibility 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    visibility 0.2s ease;
   pointer-events: none;
   z-index: 100;
 }
